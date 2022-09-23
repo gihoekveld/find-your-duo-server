@@ -39,7 +39,7 @@ An ad is an ad from a user who wants to find a duo to play together. In this ad,
 | `GET`  | [/games](#list-games)       | Game listing with ad count |
 | `POST` | [/games/:id/ads](#create-ads) | Creation of the new ad   |
 | `GET`  | [/games/:id/ads](#list-ads) | List of ads by game        |
-| `GET`  | [/ads/:id/discord](#ads) | Search discord by ad id       |
+| `GET`  | [/ads/:id/discord](#discord) | Search discord by ad id   |
 
 ### List Games
 
@@ -114,7 +114,7 @@ An ad is an ad from a user who wants to find a duo to play together. In this ad,
 ]
 ```
 
-### Ads
+### Discord
 
 `GET` _/ads/:id/discord_
 
