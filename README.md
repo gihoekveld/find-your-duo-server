@@ -1,6 +1,22 @@
-# eSports API
+# Find your duo API
 
-This is a simple API for eSports data. It is currently in development and is not ready for production use.
+This is a simple API to use on Find Your Duo [React web app](https://github.com/gihoekveld/find-your-duo-web) and [React Native app](https://github.com/gihoekveld/find-your-duo-mobile).
+
+
+## Technologies used ☕️ 🐍
+
+- NodeJS
+- Express
+- Typescript
+- Prisma
+
+## Features 🚀
+
+- List games
+- Create ads by game
+- List ads by game
+- Get discord by ads
+
 Base API url: `http://localhost:3333`
 
 ## Entities
@@ -124,6 +140,20 @@ An ad is an ad from a user who wants to find a duo to play together. In this ad,
 {
   "discord": "JohnDoe#1234"
 }
+```
+
+## Installation 
+
+```bash
+git clone
+cd find-your-duo-server
+npm install
+```
+
+## Running the app
+
+```bash
+npm run dev
 ```
 
 ## Acknowledgments
